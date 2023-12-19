@@ -1,0 +1,897 @@
+* {
+    margin: 0;
+    left: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* first header start*/
+.header {
+    background-color: blueviolet;
+    width: 1265px;
+    height: 35px;
+}
+
+.anchor {
+    margin-left: 50px;
+    padding-top: 8px;
+}
+
+.anchor a {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 5px;
+    color: brown;
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 4px;
+    float: left;
+}
+
+.anchor1 {
+    margin-left: 220px;
+}
+
+.anchor1 a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    letter-spacing: 0.5px;
+}
+
+.anchor2 {
+    margin-left: 800px;
+}
+
+.anchor2 a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.1px;
+}
+
+/* first header end */
+
+/* secound header start */
+.back {
+    background-color: white;
+    width: 1265px;
+    height: 160px;
+    box-shadow: -1px -2px 20px white;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+
+.header1 img {
+    width: 150px;
+    height: 125px;
+    mix-blend-mode: darken;
+}
+
+.header1 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 50px;
+    letter-spacing: 1.5px;
+    margin-top: -13px;
+}
+
+.header1 {
+    margin-left: 20px;
+}
+
+.threelines a {
+    margin-left: 270px;
+    color: black;
+    font-size: 20px;
+}
+
+.threelines {
+    margin-top: -95px;
+}
+
+.search {
+    margin-left: 300px;
+    margin-top: -28px;
+}
+
+.search input {
+    width: 700px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.search button {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.cart a {
+    text-decoration: none;
+    color: blueviolet;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cart {
+    margin-left: 1100px;
+    margin-top: -37px;
+}
+
+.header2 ul i {
+    list-style: none;
+    display: flex;
+    margin-top: 45px;
+    margin-left: 160px;
+}
+
+.header2 ul li {
+    margin-left: 20px;
+}
+
+.header2 ul li a {
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: bold;
+}
+
+.img {
+    box-shadow: -1px -2px 25px white;
+    border: 1px solid white;
+    background-image: url(img2.jpg);
+    background-size: contain;
+    background-size: cover;
+    width: 1265px;
+    height: 400px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    animation-name: chanti1;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+@keyframes chanti1 {
+
+    40%,
+    60%,
+    20% {
+        background-image: url(img1.jpg);
+    }
+
+    70% {
+        background-image: url(img6.jpg);
+    }
+
+    48% {
+        background-image: url(img7.jpg);
+    }
+
+    100% {
+        background-image: url(img8.jpg);
+    }
+
+    /* 50%{
+        border-top-right-radius: 200px;
+    } */
+}
+
+.dairyproducts h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+    box-shadow: 5px 10px 20px;
+}
+
+
+/* .dairyproducts {
+    border: 2px solid white;
+} */
+
+.milk {
+    width: 250px;
+    height: 250px;
+    animation-name: chanti;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes chanti {
+    50% {
+        border-end-end-radius: 150px;
+        border-start-start-radius: 150px;
+    }
+}
+
+.one {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.cheese {
+    width: 250px;
+    height: 250px;
+    border-end-end-radius: 150px;
+    border-start-start-radius: 150px;
+}
+
+.two {
+    margin-left: 360px;
+    margin-top: -286px;
+}
+
+.buttermilk {
+    width: 250px;
+    height: 250px;
+    border-end-end-radius: 150px;
+    border-start-start-radius: 150px;
+}
+
+.three {
+    margin-left: 650px;
+    margin-top: -286px;
+}
+
+.butter {
+    width: 250px;
+    height: 250px;
+    animation-name: chanti;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes chanti {
+    50% {
+        border-end-end-radius: 150px;
+        border-start-start-radius: 150px;
+
+    }
+}
+
+.four {
+    margin-left: 960px;
+    margin-top: -286px;
+}
+
+.paneer {
+    width: 250px;
+    height: 250px;
+    animation-name: chanti;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+
+@keyframes chanti {
+    50% {
+        border-end-end-radius: 150px;
+        border-start-start-radius: 150px;
+
+    }
+}
+
+.five {
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.tofu {
+    width: 250px;
+    height: 250px;
+    border-end-end-radius: 150px;
+    border-start-start-radius: 150px;
+}
+
+.six {
+    margin-left: 360px;
+    margin-top: -286px;
+}
+
+.shrikand {
+    width: 250px;
+    height: 250px;
+    border-end-end-radius: 150px;
+    border-start-start-radius: 150px;
+}
+
+.seven {
+    margin-left: 650px;
+    margin-top: -286px;
+}
+
+.yogurt {
+    width: 250px;
+    height: 250px;
+    animation-name: chanti;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+
+@keyframes chanti {
+    50% {
+        border-end-end-radius: 150px;
+        border-start-start-radius: 150px;
+    }
+}
+
+.eight {
+    margin-left: 960px;
+    margin-top: -286px;
+}
+
+.products h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+    box-shadow: 20px 20px 20px 1px;
+}
+
+/* .card1{
+    box-shadow: 80px 80px 80px 80px black;
+    transition: 0.3s;
+    width: 50px;
+    position: relative;
+    height: 50px;
+    border: 1px solid cadetblue;
+    margin-left: 50px;
+    margin-top: 25px;
+  } */
+
+
+.main {
+    display: flex;
+    margin-top: 50px;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    box-shadow: 5px 5px 10px white;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 60px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 2.5ms;
+    box-shadow: 5px 5px 10px;
+}
+
+.contant a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 5px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.brands h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+    box-shadow: 20px 20px 20px 1px;
+    margin-top: 50px;
+}
+
+.mainbrands {
+    display: flex;
+    background-color: rgb(252, 253, 253);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+
+.cardbrands {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(58, 54, 54);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cardbrands:hover {
+    transform: rotateZ(-5deg);
+    transition: 2.5ms;
+}
+
+.aboutus h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.abo h1 {
+    position: relative;
+    letter-spacing: 30px;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    padding-left: 175px;
+    padding-top: 70px;
+
+}
+
+.abo h2 {
+    position: relative;
+    letter-spacing: 20px;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(253, 5, 46);
+    padding-left: 120px;
+    padding-top: 10px;
+}
+
+.abo p {
+    position: relative;
+    width: 600px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+
+
+}
+
+.feath h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.feathers {
+    width: 1265px;
+    height: 350px;
+    background-color: rgb(244, 245, 245);
+}
+
+.shop a {
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: brown;
+    text-decoration: none;
+}
+
+.vertical1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 250px;
+    width: 0.5px;
+    background-color: black;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+
+.on1 {
+    margin-left: 30px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 175px;
+    margin-top: -200px;
+}
+
+.secure a {
+    font-size: 100px;
+    color: darkorange;
+    text-decoration: none;
+}
+
+.secure {
+    margin-top: -250px;
+    margin-left: 440px;
+}
+
+.vertical2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 250px;
+    width: 1px;
+    background-color: black;
+    margin-left: 525px;
+    margin-top: -100px;
+}
+
+.pay {
+    margin-left: 30px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: -225px;
+}
+
+.delivery a {
+    font-size: 90px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.delivery {
+    margin-left: 820px;
+    margin-top: -225px;
+}
+
+.vertical3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 250px;
+    width: 0.5px;
+    background-color: black;
+    margin-left: 950px;
+    margin-top: -100px;
+}
+
+.del {
+    margin-left: 30px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 970px;
+    margin-top: -225px;
+}
+
+.gallary h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.gall {
+    width: 1265px;
+    height: 500px;
+    background-color: rgb(241, 245, 245);
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.contant11 {
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.contant11 img {
+    border-end-end-radius: 50px;
+    border-start-start-radius: 50px;
+    border-start-end-radius: 100px;
+    border-end-start-radius: 100px;
+    border: 3px solid black;
+    border-bottom-color: rgb(133, 110, 249);
+    border-top-color: aqua;
+    border-left-color: hotpink;
+    border-right-color: hotpink;
+    border-bottom-width: 20px;
+    box-shadow: 5px 10px 20px -1px;
+    animation: shyam 10s infinite;
+}
+
+@keyframes shyam {
+
+    100% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(0.1);
+    }
+
+    35% {
+        transform: scale(1);
+    }
+
+
+}
+
+.vedios h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.ved {
+    width: 1265px;
+    height: 700px;
+    background-image: linear-gradient(45deg, rgb(247, 247, 140), rgb(239, 246, 246), white, rgb(247, 247, 140));
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards120 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.cards121 {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.cards120 iframe {
+    margin-left: px;
+    margin-top: 25px;
+    font-family: fantasy;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cards121 iframe {
+    margin-left: px;
+    margin-top: 25px;
+    font-family: fantasy;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.testimonial h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+
+
+}
+
+.test img {
+    width: 1265px;
+    height: 300px;
+    position: absolute;
+}
+
+.te {
+    position: relative;
+    margin-left: 50px;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.te h1 {
+    letter-spacing: 10px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+
+
+}
+
+.maping {
+    width: 1265px;
+    height: 385px;
+    background-color: rgb(248, 244, 239);
+    display: flex;
+}
+
+.map iframe {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.address a {
+    font-size: 40px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.address {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.form {
+    margin-left: 200px;
+    float: left;
+    margin-top: 20px;
+}
+
+.text {
+    margin-left: 650px;
+    margin-top: 20px;
+
+}
+
+.fotter {
+    width: 1265px;
+    height: 220px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+.useful {
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.useful ul {
+    margin-left: -40px;
+    list-style: none;
+    float: left;
+}
+
+.useful ul li a {
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.useful ul li:hover .use ul {
+    margin-left: 95px;
+    position: absolute;
+    display: block;
+
+}
+
+.use ul li {
+    margin-top: -25px;
+}
+
+.use ul li a {
+    font-size: 17px;
+    color: blue;
+    letter-spacing: 0px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.use ul {
+    display: none;
+}
+
+.onetwo {
+    margin-top: -110px;
+    margin-left: 325px;
+    font-size: 20px;
+}
+
+.twothree {
+    margin-left: 550px;
+    margin-top: -140px;
+    letter-spacing: 1px;
+}
+
+.threefour {
+    margin-left: 900px;
+    margin-top: -180px;
+    font-size: 20px;
+}
+
+.threefour a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.threefour a {
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50px;
+}
+
+.final {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    box-shadow: 1px 5px 10px;
+    color: deepskyblue;
+    letter-spacing: 2px;
+}
+
+.whatsapp a {
+    text-decoration: none;
+    font-size: 50px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.whatsapp {
+    margin-left: 1175px;
+    position: fixed;
+    top: 475px;
+    animation: chantigadu 1.1s infinite;
+
+}
+
+@keyframes chantigadu {
+
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-30px);
+    }
+}
